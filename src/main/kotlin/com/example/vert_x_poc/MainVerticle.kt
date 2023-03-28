@@ -6,7 +6,6 @@ import io.vertx.kotlin.core.json.json
 import io.vertx.kotlin.core.json.obj
 import io.vertx.rxjava3.core.AbstractVerticle
 import io.vertx.rxjava3.ext.web.Router
-import java.util.concurrent.Executors
 import kotlin.random.Random
 
 class MainVerticle : AbstractVerticle() {
