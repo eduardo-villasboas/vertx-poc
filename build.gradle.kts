@@ -33,7 +33,9 @@ dependencies {
   implementation("io.vertx:vertx-core")
   implementation("io.vertx:vertx-web")
   implementation("io.vertx:vertx-lang-kotlin")
-  implementation("io.vertx:vertx-lang-kotlin-coroutines")
+  implementation("io.vertx:vertx-rx-java3")
+
+//  implementation("io.vertx:vertx-lang-kotlin-coroutines")
   implementation(kotlin("stdlib-jdk8"))
   implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.0-Beta")
 
